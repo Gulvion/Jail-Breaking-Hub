@@ -1,0 +1,156 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local aztup = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local evo = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local autorob = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local xbutton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local openbutton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.BorderSizePixel = 10
+main.Position = UDim2.new(0.263284981, 0, 0.224171549, 0)
+main.Size = UDim2.new(0, 391, 0, 282)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame.Position = UDim2.new(0.0230179057, 0, 0.0354609936, 0)
+Frame.Size = UDim2.new(0, 371, 0, 262)
+
+UICorner_2.Parent = Frame
+
+aztup.Name = "aztup"
+aztup.Parent = main
+aztup.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+aztup.Position = UDim2.new(0.0678459778, 0, 0.24233754, 0)
+aztup.Size = UDim2.new(0, 101, 0, 96)
+aztup.Font = Enum.Font.SciFi
+aztup.Text = "Vynixius"
+aztup.TextColor3 = Color3.fromRGB(0, 0, 0)
+aztup.TextSize = 16.000
+aztup.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+UICorner_3.Parent = aztup
+
+evo.Name = "evo"
+evo.Parent = main
+evo.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+evo.Position = UDim2.new(0.370701849, 0, 0.238791421, 0)
+evo.Size = UDim2.new(0, 101, 0, 96)
+evo.Font = Enum.Font.SciFi
+evo.Text = "Evo V2"
+evo.TextColor3 = Color3.fromRGB(0, 0, 0)
+evo.TextSize = 16.000
+evo.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+UICorner_4.Parent = evo
+
+autorob.Name = "autorob"
+autorob.Parent = main
+autorob.BackgroundColor3 = Color3.fromRGB(255, 115, 0)
+autorob.Position = UDim2.new(0.674765527, 0, 0.24233754, 0)
+autorob.Size = UDim2.new(0, 101, 0, 96)
+autorob.Font = Enum.Font.SciFi
+autorob.Text = "Autorob/Autoarrest"
+autorob.TextColor3 = Color3.fromRGB(0, 0, 0)
+autorob.TextSize = 11.000
+autorob.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+end)
+
+UICorner_5.Parent = autorob
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.244000003, 0, -0.00100000005, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Jail Breaking Hub v1 | Made by Gulvion"
+TextLabel.TextColor3 = Color3.fromRGB(218, 138, 0)
+TextLabel.TextSize = 23.000
+TextLabel.TextStrokeTransparency = 0.000
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.245524302, 0, 0.787234068, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Credits to script owners"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 115, 255)
+TextLabel_2.TextSize = 40.000
+TextLabel_2.TextStrokeTransparency = 0.000
+
+TextLabel_3.Parent = main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.043478258, 0, 0.620567322, 0)
+TextLabel_3.Size = UDim2.new(0, 355, 0, 58)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Wanna fuck jailbreak? do it with Jail Breaking HUB please use an ALT as Jailbreak cheat detection is good"
+TextLabel_3.TextColor3 = Color3.fromRGB(218, 138, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 18.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+
+xbutton.Name = "xbutton"
+xbutton.Parent = main
+xbutton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+xbutton.BorderSizePixel = 0
+xbutton.Position = UDim2.new(0.94599998, 0, 0.0199999996, 0)
+xbutton.Size = UDim2.new(0, 15, 0, 15)
+xbutton.Font = Enum.Font.SourceSansBold
+xbutton.Text = "X"
+xbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+xbutton.TextSize = 14.000
+xbutton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+xbutton.MouseButton1Down:connect(function()
+	main.Visible = false
+end)
+
+UICorner_6.Parent = xbutton
+
+openbutton.Name = "openbutton"
+openbutton.Parent = ScreenGui
+openbutton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+openbutton.Position = UDim2.new(0.944444418, 0, 0.417153984, 0)
+openbutton.Size = UDim2.new(0, 40, 0, 40)
+openbutton.Font = Enum.Font.FredokaOne
+openbutton.Text = "OPEN"
+openbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+openbutton.TextSize = 14.000
+openbutton.MouseButton1Down:connect(function()
+	if main.Visible == false then
+		main.Visible = true
+	end
+end)
+
+UICorner_7.Parent = openbutton
